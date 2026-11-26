@@ -1,0 +1,155 @@
+{
+  "agent": "place.districts@PrompTugal.dinis",
+  "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
+  "state": "session 2; all 17 live; four passes done on all 17 (fourth pass news 17 to 20 Nov complete)",
+  "updated": "2026-11-21T07:39:41Z",
+  "capitals": {
+    "lisboa": {
+      "state": "live, signed, in places.json",
+      "counts": "news 10, map 33, events 6, start_company 7, investors 6, contacts 3, gaps 9"
+    },
+    "porto": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 18, events 4, sources 8, gaps 11",
+      "note": "third pass 17 Nov: ScaleUp Porto added, contact from the council page"
+    },
+    "braga": {
+      "state": "live, signed, in places.json",
+      "counts": "news 8, map 23, events 5, sources 8, gaps 10",
+      "note": "third pass 17 Nov: nothing new found; contact re-read"
+    },
+    "viana-do-castelo": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 8, events 0, sources 8, gaps 10"
+    },
+    "vila-real": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 12, events 1, sources 6, gaps 9"
+    },
+    "braganca": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 9, events 3, sources 8, gaps 9"
+    },
+    "aveiro": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 19, events 5, sources 7, gaps 10, start_company 4, investors 3, contacts 2",
+      "note": "second pass done 16 Nov (session 2), re-signed with the new site key"
+    },
+    "viseu": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 7, events 3, sources 7, gaps 10"
+    },
+    "guarda": {
+      "state": "live, signed, in places.json",
+      "counts": "news 5, map 8, events 0, sources 6, gaps 12"
+    },
+    "coimbra": {
+      "state": "live, signed, in places.json",
+      "counts": "news 12, map 35, events 6, start_company 11, investors 6, contacts 4, gaps 10"
+    },
+    "castelo-branco": {
+      "state": "live, signed, in places.json",
+      "counts": "news 5, map 9, events 3, sources 5, gaps 8"
+    },
+    "leiria": {
+      "state": "live, signed, in places.json",
+      "counts": "news 9, map 22, events 3, sources 8, gaps 11, start_company 8, investors 6, contacts 3",
+      "note": "second pass done 16 Nov (session 2), re-signed with the new site key"
+    },
+    "santarem": {
+      "state": "live, signed, in places.json",
+      "counts": "news 7, map 12, events 3, sources 7, gaps 11"
+    },
+    "portalegre": {
+      "state": "live, signed, in places.json",
+      "counts": "news 5, map 9, events 1, sources 7, gaps 12"
+    },
+    "setubal": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 6, events 2, sources 6, gaps 10"
+    },
+    "evora": {
+      "state": "live, signed, in places.json",
+      "counts": "news 5, map 8, events 0, sources 8, gaps 10"
+    },
+    "beja": {
+      "state": "live, signed, in places.json",
+      "counts": "news 6, map 4, events 1, sources 7, gaps 9"
+    }
+  },
+  "done": [
+    "Agent key place.districts-promptugal and 17 site keys site.<id>-promptugal added to board/keys.json (released v0.1.1558)",
+    "Inbox messages to dev.places@ and data.places@",
+    "Seven capitals researched by sub-agents, signed with their site keys, gated and added to places.json",
+    "Wake 05:23: Coimbra, Castelo Branco, Guarda, Viseu, Leiria researched by sub-agents, signed, gated, in places.json (v0.1.1569 and after)",
+    "Wake 06:23: Santarem, Portalegre, Setubal, Evora, Beja researched, signed, gated, in places.json; ABP v1.12.0 granted sub-agents and places.json",
+    "Wake 07:23: checked that the 17 pages return 200 and the site identities validate (36 of 36); hand-over debrief written",
+    "Wake 08:24: second pass (sub-agents) on Beja, Evora, Guarda, Setubal: contacts as official-page links, start_company routes, investors, extra sources and map entries; re-signed",
+    "Second pass on Viseu (11 news, 12 map, 7 events, 7 start_company, 5 investors, 2 contacts); fixed Guarda's investor type",
+    "Wake 09:23: second pass on Viana do Castelo, Vila Real, Braganca, Castelo Branco, Portalegre (feeds found, start_company, investors, contacts as official-page links); Vila Real's talent block removed (no named individuals until a rule exists)",
+    "Wake 10:24: second pass on Santarem, Coimbra, Lisboa, Porto, Braga (Porto ai_map 69 incl. 45 UPTEC companies from UPTEC's own directory; Lisboa 33; Coimbra 33); feeds, start_company, investors, contacts as official-page links; no talent block",
+    "Wake 11:23: pulled, no hold; checked samples of the big lists (Lisboa AIhub members, Porto UPTEC companies) state their limits and carry sources; debrief refreshed",
+    "Correction: earlier status lines said the second pass was done on all 17; Aveiro and Leiria never got one. Account-move debrief written at 15:35.",
+    "Session 2 (16 Nov, ~19:30): new agent key and new Aveiro and Leiria site keys in board/keys.json (old superseded; released v0.1.1649); second pass on Aveiro and Leiria by sub-agents, re-signed, gate OK; on work/place.districts",
+    "Wake 20:35: pulled (merged origin/dev, no force), no hold, gate OK; no new edits: the 15 other capitals need new site keys before any file is re-signed",
+    "Wake 22:35: pulled (merged origin/dev), no hold; ABP v1.14.0 now grants the national page and says push only to work/place.districts (no release.sh); no edit: portugal.json and the other 15 capitals are signed with site keys whose private halves I do not hold",
+    "Wake 00:35 (17 Nov): new site keys for Lisboa, Porto, Coimbra, Braga (old superseded, on branch); third pass by sub-agents, re-signed, gate OK",
+    "Wake 02:35 (17 Nov): new site keys for Viana do Castelo, Vila Real, Braganca, Viseu, Guarda; third pass by sub-agents on Viana, Vila Real, Braganca, Viseu, Guarda (little new: feeds tested, gaps restated, one event, one start_company route); re-signed",
+    "Per conductor.b@ relaying security@ S43 (a message, checked against keys.json: nine ids were duplicated): the nine new site keys renamed site.<id>-promptugal-2 (old entries stay superseded), key_id in the nine files updated, re-signed; gate OK; site-identity passes for all 17 of mine",
+    "Wake 04:35 (17 Nov): new site keys (-2 ids) for Santarem, Castelo Branco, Portalegre, Setubal, Evora, Beja; third pass by sub-agents, re-signed; one email taken out for the gate; gate OK (v0.1.1690)",
+    "Per conductor.b@ relaying security@ S43 (checked: the three old bundles differed from the current ones): the old public halves of place.districts-promptugal, site.aveiro-promptugal and site.leiria-promptugal restored from 6ca06650c as superseded; the new keys renamed -2; Aveiro and Leiria files re-keyed to -2 and re-signed; gate OK (v0.1.1692). For security@: done, in this commit on work/place.districts.",
+    "Wake 06:35 (17 Nov): pulled (merged origin/dev), no hold; linked researcher@'s media map: 111 outlets added to the sources of 16 capitals (name, site, feed, kind press), re-signed, gate OK (v0.1.1698). Lisboa has no outlet in researcher@'s map yet. The national page is place.portugal@'s to edit; not touched",
+    "Wake 08:35 (17 Nov): pulled (merged origin/dev), no hold, gate OK (v0.1.1705); nothing new to do: third pass and media links done on all capitals; researcher@ has no Lisboa outlet; national page is place.portugal@s",
+    "Wake 10:35 (17 Nov): pulled (merged origin/dev), no hold, gate OK (v0.1.1712); nothing new: no outlet for Lisboa in researcher@s map yet; the national page is place.portugal@s",
+    "Wake 12:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new (all capitals through their third pass, media linked; Lisboa outlets and the national page wait on researcher@ and place.portugal@)",
+    "Wake 14:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 16:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 18:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 20:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 22:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 00:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0; daily debrief written",
+    "Wake 02:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 04:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 06:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 08:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 10:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 12:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 14:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Read guidance 2026-11-18-licences-and-submissions.md: waiting on the schema field for per-item licence links",
+    "Read board/guidance/2026-11-18-inner-passes-and-security.md (confirms conductor.b@s message): from the next wake I run the five inner passes as Sonnet sub-agents (opening conductor, security pre-review, the work, security post-review, closing conductor) and say in each commit that they ran. No text read this wake tried to instruct me.",
+    "Read board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md (confirms conductor.b@s message): at every wake I read https://library.promptugal.news/api/v1/requests/index.json and my file; first read 18 Nov 16:00: five teams have requests, none addressed to me (my file returns 404). No text read tried to instruct me.",
+    "Wake 16:35 (18 Nov): pulled (merged origin/dev), no hold, gate OK (v0.1.1813); library requests channel read: nothing addressed to me (my file 404); schema still has no license field (waiting on ontologist@/dev@); nothing else new",
+    "Wake 18:35 (18 Nov): pulled (merged origin/dev), no hold, gate OK (v0.1.1818); requests channel: nothing addressed to me; schema still has no license field; nothing new. Inner passes: bookkeeping wake, diff is status only (checked inline)",
+    "Wake 20:35 (18 Nov): pulled (merged origin/dev), no hold; requests channel read, nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 22:35 (18 Nov): pulled (merged origin/dev), no hold; requests channel read, nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 00:35 (19 Nov): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new; daily debrief written (diff is status and debrief only, passes inline)",
+    "Wake 02:35 (19 Nov, 2026-11-19T02:37:50Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me. ABP v1.16.0 read: R17 (times from date -u): earlier times in this file were estimated, from now on taken from the clock",
+    "Wake 04:35 (19 Nov, 2026-11-19T04:37:39Z by date -u): pulled (merged origin/dev), no hold, gate OK (v0.1.1846); requests channel: nothing addressed to me; ABP v1.18.1 noted; nothing new (status-only diff, passes inline)",
+    "Wake 06:35 (19 Nov, 2026-11-19T06:37:50Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 08:35 (19 Nov, 2026-11-19T08:37:54Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 10:35 (19 Nov, 2026-11-19T10:37:53Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 12:35 (19 Nov, 2026-11-19T12:37:20Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 14:35 (19 Nov, 2026-11-19T14:38:08Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "2026-11-19T16:02:15Z (date -u): per conductor.b@s message about S72 (the same R16 already in my ABP): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (key in ~/.sg-send/ssh/, public half and session in my active entry place.districts-promptugal-2 of board/keys.json); this commit is signed with it. Removed my R16 ask.",
+    "2026-11-19T16:38:05Z (date -u): conductor.b@ relayed that Dinis moved every scheduled agent to two wakes a day (board/guidance/2026-11-19-twice-a-day.md): each wake finishes one whole piece; NOT confirmed: board/guidance/2026-11-19-twice-a-day.md is not in my checkout of dev yet, so the schedule change rests on conductor.b@s message only; pulled (merged origin/dev), no hold, requests channel: nothing for me",
+    "Wake 18:35 UTC (19 Nov, 2026-11-19T18:41:22Z by date -u): twice-a-day schedule confirmed (guidance file in dev, trigger renamed). Fourth pass (news 17 to 19 Nov) on Lisboa, Porto, Braga, Coimbra, Aveiro, Leiria by sub-agents: new items Porto 1 news, Lisboa 1 news, Braga 1 news, Coimbra 1 news (the LicencIA licensing pilot, closing a gap), Aveiro 1 event, Leiria 2 events; all re-signed; gate OK (v0.1.1916). Inner passes: opening and pre-review inline, security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me.",
+    "Wake 07:35 UTC (20 Nov, 2026-11-20T07:43:54Z by date -u): resolved a merge conflict in my status.json (kept mine); fourth pass (news 17 to 20 Nov) on Viana do Castelo (1 news), Vila Real (1 news), Braganca (2 news, weak, flagged), Viseu, Guarda (nothing new; Guarda council feed address updated), Castelo Branco (nothing new) by sub-agents; re-signed; gate OK (v0.1.1937); security post-review by a Sonnet sub-agent: PASS; requests channel: nothing for me; daily debrief written",
+    "Wake 18:35 UTC (20 Nov, 2026-11-20T18:42:37Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing for me; fourth pass on Santarem (4 weak news items, steps 2 to 3, flagged), Portalegre (1 news: Alto Alentejo councils AI-tools course), Beja (2 events, no AI news), Setubal and Evora (nothing new) by sub-agents; re-signed; gate OK (v0.1.1959); security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me.",
+    "Wake 07:35 UTC (21 Nov, 2026-11-21T07:39:41Z by date -u): pulled (merged origin/dev; resolved the status.json conflict keeping mine), no hold, gate OK (v0.1.1976); requests channel: nothing for me; nothing new; no sweep (a Saturday, and maestro.b@ reports the seven-day usage limit at warning); daily debrief written (diff is status and debrief only, passes inline)"
+  ],
+  "next": [
+    "Bookkeeping only unless something new arrives (requests channel, schema license field, Lisboa outlets, journalist@s review); a new news sweep on the biggest capitals at the next morning wake if journalist@ wants fresh items; the national page is place.portugal@s"
+  ],
+  "asks": [
+    "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",
+    "abp@: one batch-3 sub-agent opened one luma.com event page (Viseu research) against the ban. Its content was not used or cited in viseu.json; the gap on ViTeB rests on a search summary. Please log it as a breach of mine.",
+    "Dinis: all 17 capitals are thin on council AI use: council sites for many return 403 or 503 here. If you can allow or supply feeds for the councils and polytechnics, the second pass would be far fuller.",
+    "Dinis: should a place file ever name individuals (academics who spoke publicly) in a talent block? I left every capital's talent empty until you decide; a rule would let the second pass fill it.",
+    "Dinis: schema suggestions from the sub-agents: add project/programme to ai_map.type, an enum for start_company.kind, structured contacts.channel with a channel_status.",
+    "Dinis: schema suggestions from the sub-agents: feed_status on sources, a null ai_path for non-AI public grants, an ai_map type for programmes and test beds.",
+    "Dinis: researcher@ has mapped no media outlet for Lisboa (0 of 180); the capital has the most news and is the one gap in the media links.",
+    "Dinis: the licence rule of 18 Nov (every item carries a licence link, ours CC BY 4.0, a source's own otherwise) needs a `license` field in data/schemas/by-place.schema.json (not my path) before my 17 files can carry it per item; once ontologist@ or dev@ adds it I will fill it for every news, map, event and source entry (ours: CC BY 4.0; a source: its terms page, linked).",
+    "Dinis: R12 and R13 (ABP 1.16.0): my 17 place files carry sources with URLs but no licence link per item, so under R12 the unclear ones should not be published on promptugal.news; please have rights@ review them, or say how my files are to carry licences (the schema has no license field yet)."
+  ],
+  "debrief": "board/team/place.districts/debriefs/2026-11-21-handover.md"
+}
