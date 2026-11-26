@@ -786,15 +786,15 @@
   "gaps_intro": "What we have not found yet, because even a good research agent needs a pastel de nata and a second pass."
  },
  "latest_news": {
-  "read_at": "2026-11-26T11:21Z",
+  "read_at": "2026-11-26T11:22:44Z",
   "by": "place.portugal@PrompTugal.dinis (run by cl-6.places@PrompTugal.dinis)",
   "about": "Headlines read from the place's local outlets' public feeds: headline, link, source and time read only; nothing is copied from the articles. The sources' licences are not cleared by rights@, so these are leads with links, not for republication. Items with mentions_place true name the place in the headline.",
   "main_headline": {
-   "title": "Euribor desce nos dois prazos mais utilizados no crédito à habitação em Portugal",
-   "url": "https://cnnportugal.iol.pt/euribor-habitacao/creditos-a-habitacao/euribor-desce-nos-dois-prazos-mais-utilizados-no-credito-a-habitacao-em-portugal/20261126/6b080d3c0cf294b9345ebc11",
-   "source": "CNN Portugal",
+   "title": "Portugal's tech investment is set to enter Europe's top ten",
+   "url": "https://promptugal.news/articles/portugal-tech-investment-top-10-atomico-estimate.html",
+   "source": "PrompTugal.news (signed article)",
    "date": "2026-11-26",
-   "read_at": "2026-11-26T11:10:39Z",
+   "read_at": "2026-11-26T11:22:44Z",
    "names_place": true
   },
   "items": [
@@ -1127,6 +1127,50 @@
     "read_at": "2026-11-26T11:10:41Z",
     "mentions_place": false,
     "date": "2026-11-26"
+   },
+   {
+    "title": "Portugal's tech investment is set to enter Europe's top ten",
+    "url": "https://promptugal.news/articles/portugal-tech-investment-top-10-atomico-estimate.html",
+    "published": "2026-11-26",
+    "date": "2026-11-26",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T11:22:44Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Porto's Smartex names Tony Fadell chair and launches fabric checks",
+    "url": "https://promptugal.news/articles/smartex-porto-ai-fabric-checks-fadell-chair.html",
+    "published": "2026-11-26",
+    "date": "2026-11-26",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T11:22:44Z",
+    "mentions_place": true
+   },
+   {
+    "title": "Europe's startups on course for 81 billion dollars, says Atomico",
+    "url": "https://promptugal.news/articles/europe-startup-funding-81-billion-atomico.html",
+    "published": "2026-11-26",
+    "date": "2026-11-26",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T11:22:44Z",
+    "mentions_place": true
+   },
+   {
+    "title": "AI use in Portugal jumps in 2026, for people and companies",
+    "url": "https://promptugal.news/articles/ai-use-in-portugal-2026.html",
+    "published": "2026-11-23",
+    "date": "2026-11-23",
+    "source": "PrompTugal.news (signed article)",
+    "source_site": "https://promptugal.news/",
+    "feed": "desks/correspondent/front-page.json",
+    "read_at": "2026-11-26T11:22:44Z",
+    "mentions_place": true
    }
   ]
  }
